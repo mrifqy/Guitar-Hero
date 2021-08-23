@@ -1,0 +1,86 @@
+body {
+    display: flex;
+
+    font-family: monospace;
+    font-size: large;
+    
+    padding-top: 300px;
+    padding-bottom: 50px;
+    padding-left: 40%;
+    
+    background-image: url(playstation-pattern.png);
+}
+
+.bg-garis {
+    line-height: 70px;
+}
+
+.tombol {
+    margin-left: 220px; 
+    position: absolute; 
+    z-index: 1;
+}
+
+audio{
+    position: absolute;
+    top: 200px;
+    left: 530px;
+    right: auto;
+    border: solid 0.5px black;
+}
+
+.tombol .one {
+    background-color: #346436; /* Green */
+    width: 35px;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.desk-level {
+    font-family: sans-serif;
+}
+
+.tombol-level {
+    margin-top: -40px; 
+    /* margin-left: 200px; */
+    position: absolute;
+    cursor: pointer;
+}
+
+.tombol-level .inside {
+    background-color: #346436;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.tombol-level .easy {
+    background-color: rgb(6, 111, 129); 
+}
+
+.tombol-level .medium {
+    background-color: rgb(6, 111, 129); 
+}
+
+.tombol-level .hard {
+    background-color: rgb(6, 111, 129); 
+}
+
+.score {
+    margin-top: 200px; 
+    position: absolute;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

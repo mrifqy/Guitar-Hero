@@ -1,0 +1,59 @@
+body {
+    background-image: url(playstation-pattern.png);
+}
+
+.main-container {
+    width: 100%;
+    height: auto;
+    padding-top: 20%;
+}
+
+.main-wrapper {
+    margin: auto; 
+    
+    text-align: center; 
+    font-family: sans-serif; 
+    font-size: 3em;
+}
+
+.main-wrapper h1 {
+    display: inline;
+    text-decoration: none;
+    background: linear-gradient(to right, rgb(0, 0, 0) 50%, #0039e4 50%, #04dbf1);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.4s linear;
+}
+
+.main-wrapper h1:hover {
+    background-position: -100%;
+}
+
+.main-wrapper h3 {
+    display: inline;
+    text-decoration: none;
+    background: linear-gradient(to right, rgb(0, 0, 0) 50%, yellow 50%, red);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.4s linear;
+}
+
+.main-wrapper h3:hover {
+    background-position: -100%;
+}
+
+.main-wrapper a {
+    text-decoration: none;
+    background: linear-gradient(to right, rgb(0, 0, 0) 50%, yellow 50%, red);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.4s linear;
+    
+}
+
+.main-wrapper a:hover {
+    background-position: -100%;
+}

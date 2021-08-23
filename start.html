@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guitar Hero Custom</title>
+  </head>
+  <body>
+    <div class="bg-garis">
+      <div id="line1"></div>
+      <div id="line2"></div>
+      <div id="line3"></div>
+    </div>
+
+    <div class="tombol">
+      <div><button class="one" id="1">+</button></div>
+      <div><button class="one" id="2">-</button></div>
+      <div><button class="one" id="3">x</button></div>
+    </div>
+
+    <div>
+      <h2 class="desk-level" id="level"></h2>
+    </div>
+
+    <div class="tombol-level">
+      <button class="inside easy" id="lv1">Level 1</button>
+      <button class="inside medium" id="lv2">Level 2</button>
+      <button class="inside hard" id="lv3">Level 3</button>
+    </div>
+
+    <div class="score">
+      <p>Nilai = <span id="nilai"></span></p>
+      <p>Target = <span id="target" aria-placeholder="10">10</span></p>
+      <p>Skor = <span id="skor" placeholder="0"></span></p>
+    </div>
+    <audio controls autoplay>
+      <source src="prawan-kalimantan.mp3" type="audio/mp3" />
+    </audio>
+    <!-- Local js -->
+    <script src="script.js"></script>
+  </body>
+</html>
